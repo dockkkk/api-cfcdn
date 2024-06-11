@@ -6,7 +6,7 @@
 
    sudo apt install python3-pip
 
-2，上传py文件到服务器，windows，或者家用小主机支持py的都可以
+2，上传py文件到服务器，windows，NAS,OPENWRT,DOCKER 或者家用小主机支持py的都可以
 
    只需填写CF的api token，zone id，和解析域名
 
