@@ -1,4 +1,11 @@
+先安装pythone3
+sudo apt update
+sudo apt install python3
+sudo apt install python3-pip
+
+
 python3运行***.py文件
+
 
 只需填写CF的api token，zone id，和解析域名
 
