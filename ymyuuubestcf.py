@@ -2,9 +2,9 @@ import requests
 import csv
 
 # Cloudflare API参数
-api_token = "PeUtg0tKTVwdEaLcxwEBPYopvq0ZYznxRQca41fr"
-zone_id = "ca601fa8cf0a046ad93afe6a8af069d8"
-subdomain = "sp.rweek.top"  # 您的二级域名
+api_token = "***"
+zone_id = "***"
+subdomain = "***"  # 您的二级域名
 
 # Cloudflare API端点
 api_url = f"https://api.cloudflare.com/client/v4/zones/{zone_id}/dns_records"
