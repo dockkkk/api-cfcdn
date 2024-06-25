@@ -2,9 +2,9 @@ import requests
 import csv
 
 # Cloudflare API参数
-api_token = "***"
-zone_id = "***"
-subdomain = "***"  # 您的二级域名
+api_token = "*********"
+zone_id = "*****"
+subdomain = "*****"  # 您的二级域名
 
 # Cloudflare API端点
 api_url = f"https://api.cloudflare.com/client/v4/zones/{zone_id}/dns_records"
@@ -91,7 +91,7 @@ if response.status_code == 200:
                     "name": subdomain,
                     "content": ip_address,
                     "ttl": 1,  # TTL（生存时间），以秒为单位
-                    "proxied": False  # 关闭 Cloudflare 代理
+                    "proxied": False  # 关闭Cloudflare代理
                 }
 
                 # 发送POST请求以创建DNS记录
